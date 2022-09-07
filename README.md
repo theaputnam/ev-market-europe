@@ -1,9 +1,6 @@
 # Europe's Electric Vehicle Infrastructure and Market—A Performance Dashboard
 
 This interactive dashboard provides private and public decision-makers with an overview of the infrastructure and market situation of passenger electric vehicles in Europe. It highlights many key performance indicators (KPIs) and targets by illustrating trends through various graphs and maps. It was built with *Microsoft Power BI* and *Excel* using a *star schema* database modeling approach to organize the multi-dimensional KPIs. The dashboard includes many interactive graphs that change based on what year and country are selected. It also displays static 2021 (2020) KPIs we found most important to give users a reference point (for the *then* current situation).
-
-This project was a collaboration with [Clemens S. Heithecker](https://github.com/clemensheithecker) as part of group work in a Decision Support Systems course at [Tilburg University](https://www.tilburguniversity.edu) in the Netherlands.
-
 ## Data Preparation and Database Integration
 
 After downloading the data from the European Alternative Fuels Observatory, we cleaned it by deleting null values, changing data types of attributes, and removing irrelevant entries. Following this, we connected the dimension tables—our key performance indicators (KPIs)—to our fact table—a list of EU countries—using primary and foreign keys in Power BI. We modeled our database using a star schema approach.
